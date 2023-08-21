@@ -1,0 +1,208 @@
+h1 {
+    color: powderblue;
+}
+/* comentarios com css */ 
+
+/* id */
+h3 {
+    color: blueviolet;
+}
+#title {
+    color: chocolate;
+}
+/* classes - . */
+.text {
+    color: darkred;
+}
+
+/* background */ 
+
+.background {
+    background-color: blueviolet;
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* dois elementos uma regra */
+p, 
+.title-small {
+    color: blueviolet;
+}
+.title-small {
+    font-size: 40px;
+}
+/* background image */
+
+.background-image {
+     background-image: url(../img/meteoro.jpg);
+     padding: 40px;
+     color: aliceblue;
+}
+
+/* altura e largura */
+#width-height {
+    width: 200px;
+    height: 100px;
+    background-color: black;
+}
+/* pading */
+#padding {
+    background-color: darksalmon;
+    padding: 20px;
+    margin: 30px;
+}
+/* margin */
+#margin {
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+    background-color: cornflowerblue;
+}
+/*border */
+#border {
+    color: aliceblue;
+    width: 300px;
+    height: 100px;
+    border: 3px solid blueviolet;
+    background-image: url(../img/meteoro.jpg);
+    padding: 60px;
+    margin: 100px;
+    border-radius: 20px;
+}
+/* raio da borda */
+#border-radius {
+    color: aliceblue;
+    background-image: url(../img/praia.jpg);
+    height: 200px;
+    width: 600px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+/* colors */
+#rgb, 
+#hsl, 
+#hex {
+    width: 50px;
+    height: 50px;
+    margin: 50px;
+}
+
+#hex {
+    background-color: #40b6f6;
+}
+#rgb {
+    background-color: rgb(206, 89, 136);
+}
+#hsl {
+    background-color: hsl(100, 20%, 48%);
+}
+/* alinhamento texto */
+
+#center {
+    text-align: center;
+}
+
+p{
+    font-size: 30px;
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+#line {
+    text-decoration: line-through;
+}
+#sem-underline {
+    text-decoration: none;
+}
+#fonte-pequena {
+    font-size: 4px;
+}
+/* TRANSFORM */ 
+#lower {
+    text-transform: lowercase;
+}
+#upper {
+    text-transform: uppercase; 
+}
+ /* font family */
+
+#serif {
+    font-family: Georgia;
+}
+#sans-serif{
+    font-family: sans-serif;
+}
+#cursive {
+    font-family: cursive;
+}
+
+ /* inline */
+
+.inline {
+    width: 50px;
+    height: 50px;
+    background-color: #40b6f6;
+    margin: 5px;
+    display: inline-block;
+}
+
+/*display */
+.block {
+    width: 50px;
+    height: 50px;
+    background-color: #0e7507;
+    margin: 5px;
+    display: block;
+}
+/*ocultando elementos */
+#none {
+    display: none;
+}
+/* position */
+
+#relative,
+#absolute,
+#fixed {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+#relative {
+    background-color: blueviolet;
+    position: relative;
+    top: 50px;
+    left: 50px;
+
+}
+
+#absolute {
+    background-color: chocolate;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+#fixed {
+    background-color: gray;
+    position: fixed;
+    top: 100px;
+    right: 45px;
+}
+/* relative com absolute*/
+
+#relative-2{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+
+}
+
+#absolute-1, #absolute-2 {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+}
